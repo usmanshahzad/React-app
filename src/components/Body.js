@@ -69,7 +69,24 @@ class Body extends React.Component{
                                     </div>
                                 </div>
                             </div>
-                            <SwiperSlider/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="top-items">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-12 p-0">
+                            <div className="items-wrapper">
+                                <div className="items-heading">
+                                    <h4>Top Items</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                                <div className="items-sorting">
+                                    <SwiperSlider/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
